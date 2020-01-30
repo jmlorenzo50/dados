@@ -1,0 +1,7 @@
+spring:
+   application:
+      name:            dados-service
+server:
+   port:               2020
+   servlet:
+      context-path:    /dados-service
