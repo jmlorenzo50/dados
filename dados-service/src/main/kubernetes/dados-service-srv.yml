@@ -1,0 +1,12 @@
+apiVersion:     v1 # Usa apps/v1beta2 para versiones anteriores a 1.9.0
+kind:           Service
+metadata:
+  name: dados-service-srv
+spec:
+  selector:
+     app: dados-service
+  ports:
+   - name: default
+     protocol: TCP
+     port: 80
+     targetPort: 8080

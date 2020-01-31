@@ -1,0 +1,21 @@
+apiVersion: apps/v1 # Usa apps/v1beta2 para versiones anteriores a 1.9.0
+kind: Deployment
+metadata:
+  name: dados-service-deployment 
+  labels:
+    app: dados-service
+spec:
+  selector:
+    matchLabels:
+      app: dados-service
+  replicas: 2 # indica al controlador que ejecute 2 pods
+  template:
+    metadata:
+      labels:
+        app: dados-service
+    spec:
+      containers:
+      - name: dados-service
+        image: jmlorenzo/dados-service:latest
+        ports:
+        - containerPort: 8080
