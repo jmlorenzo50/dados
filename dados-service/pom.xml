@@ -6,24 +6,41 @@
 		<groupId>es.dados</groupId>
 		<artifactId>dados</artifactId>
 		<version>1.0.0</version>
+		<!-- <relativePath>../</relativePath> -->
 	</parent>
 
 	<artifactId>dados-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Servicio que tira 1 dado y espera</description>
-
+	
+	<!-- 
+	<properties>
+		<start-class>es.dados.service.DadosServiceApp</start-class>
+	</properties>
+ 	-->
+ 	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
 			<groupId>es.dados</groupId>
 			<artifactId>dados-api</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>

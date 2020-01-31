@@ -31,7 +31,7 @@ public class DadosControl {
 		valorSrv.espera(valor);
 		
 		Valor respuesta = new Valor();
-		respuesta.setStatus(HttpStatus.OK);
+		respuesta.setStatus(HttpStatus.OK.value());
 		respuesta.setValor(valor);
 		return respuesta;
 	}
@@ -47,7 +47,7 @@ public class DadosControl {
 		valorSrv.espera(valor);
 		
 		Valor respuesta = new Valor();
-		respuesta.setStatus(HttpStatus.OK);
+		respuesta.setStatus(HttpStatus.OK.value());
 		respuesta.setValor(valor);
 		return respuesta;
 	}
