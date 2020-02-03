@@ -1,0 +1,23 @@
+* text eol=lf
+
+*.adoc text
+*.bat text eol=crlf
+*.css text
+*.csv text eolf=crlf
+*.java text
+*.json text
+*.properties text
+*.sh text
+*.sql text
+*.txt text
+*.yaml text
+*.xml text
+*.xsl text
+
+*.jar binary
+*.png binary
+*.jpg binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
