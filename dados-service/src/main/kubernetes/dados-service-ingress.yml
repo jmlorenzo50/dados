@@ -9,4 +9,4 @@ spec:
       - path: /dados-service
         backend:
           serviceName: dados-service-srv
-          servicePort: 80
+          servicePort: 8888
