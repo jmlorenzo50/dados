@@ -32,5 +32,6 @@
 		<module>dados-api</module>
 		<module>dados-service</module>
 		<module>dados-common</module>
+		<module>dados-tirada-service</module>
 	</modules>
 </project>
