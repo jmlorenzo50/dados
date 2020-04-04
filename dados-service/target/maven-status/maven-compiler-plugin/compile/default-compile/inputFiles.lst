@@ -1,8 +1,8 @@
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/components/util/UtilWait.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/controller/DadosControl.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/services/ValorSrvImpl.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/services/ValorSrv.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/DadosServiceApp.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/components/util/UtilRandom.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/components/util/UtilWaitImpl.java
-/home/jorko/datos/wk_sts4/dados/dados-service/src/main/java/es/dados/service/components/util/UtilRandomImpl.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/components/util/UtilWait.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/services/ValorSrvImpl.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/components/util/UtilRandomImpl.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/components/util/UtilRandom.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/components/util/UtilWaitImpl.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/controller/DadosControl.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/services/ValorSrv.java
+/home/jorge/Datos/workspace/wk_dados/dados/dados-service/src/main/java/es/dados/service/DadosServiceApp.java

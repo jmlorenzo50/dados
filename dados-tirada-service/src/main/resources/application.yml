@@ -9,5 +9,5 @@ server:
 application:
   endpoints:
     get-dados:
-      url: ${DADOS_URL:http://localhost:30400}/dados-service/dado6
+      url: ${DADOS_URL:http://localhost:8080}/dados-service/dado6
       

@@ -11,7 +11,7 @@ RUN sh -c 'touch /app.jar'
 VOLUME [ "/tmp" ]
     
 ENV JAVA_OPTS="$JAVA_OPTS -Xms256M -Xmx1G" \
-    SERVER_PORT=2020
+    SERVER_PORT=8080
 
 EXPOSE ${SERVER_PORT}
 
