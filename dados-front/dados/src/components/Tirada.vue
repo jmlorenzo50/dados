@@ -3,7 +3,7 @@
     
     <div style="margin: 50px;">
       <h1 >Pulsa el botón para tirar los dados</h1>
-      <p>Hay que esperar tantos segundos como el resultado</p>
+      <p>Hay que esperar unos segundos dependiendo del resultado</p>
     </div>
     
     <p style="margin: 50px;">
@@ -17,11 +17,11 @@
     
     <div v-if="!lanzando">
       <p style="margin: 50px;">
-        <img alt="Vue logo" :src="'dice6-' +  tirada[0] + '.png'" width="200px" style="margin: 10px;">
+        <img :alt="'dice6-' +  tirada[0]" :src="'dice6-' +  tirada[0] + '.png'" width="200px" style="margin: 10px;">
 
-        <img alt="Vue logo" :src="'dice6-' +  tirada[1] + '.png'" width="200px" style="margin: 10px;">
+        <img :alt="'dice6-' +  tirada[1]" :src="'dice6-' +  tirada[1] + '.png'" width="200px" style="margin: 10px;">
         
-        <img alt="Vue logo" :src="'dice6-' +  tirada[2] + '.png'" width="200px" style="margin: 10px;">
+        <img :alt="'dice6-' +  tirada[0]" :src="'dice6-' +  tirada[2] + '.png'" width="200px" style="margin: 10px;">
       </p>
     </div>  
   </div>

@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import es.dados.service.components.util.UtilFibo;
 import es.dados.service.components.util.UtilRandom;
 import es.dados.service.components.util.UtilWait;
 
@@ -17,6 +18,10 @@ public class ValorSrvImpl implements ValorSrv{
 	@Autowired
 	@Qualifier("utilWait")
 	private UtilWait utilWait;
+	
+	@Autowired
+	@Qualifier("utilFibo")
+	private UtilFibo utilFibo;
 
 	@Override
 	public Integer obtenValor(int menor, int mayor) {
@@ -25,7 +30,9 @@ public class ValorSrvImpl implements ValorSrv{
 
 	@Override
 	public void espera(int segundos) {
-		utilWait.espera(segundos);
+		long numero = 8 * segundos;	
+		utilFibo.calcularFibonacci(numero);
+		// utilWait.espera(segundos);
 	}
 
 }

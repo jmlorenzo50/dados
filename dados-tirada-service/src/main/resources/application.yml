@@ -10,4 +10,21 @@ application:
   endpoints:
     get-dados:
       url: ${DADOS_URL:http://localhost:8080}/dados-service/dado6
-      
+
+#Metrics related configurations
+management:
+  endpoint:
+    health:
+      show-details:      always
+    metrics:
+      enabled:           true
+    prometheus:
+      enabled:           true
+  endpoints:
+    web:
+      exposure:
+        include:         '*'
+  metrics:
+    export:
+      prometheus:
+        enabled:         true            
